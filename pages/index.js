@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import React from 'react';
 import $ from 'jquery';
 import Image from 'next/image'
@@ -11,6 +12,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
+    <>
     <div className="w-auto">
      <>
   {/* Basic */}
@@ -748,7 +750,37 @@ export default function Home() {
 </>
 
 </div>
-  
+<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="vendor/lazysizes/lazysizes.min.js"></script>
+		<script src="vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="vendor/vide/jquery.vide.min.js"></script>
+		<script src="vendor/vivus/vivus.min.js"></script>
+
+
+		<script src="js/theme.js"></script>
+
+		<script src="js/views/view.contact.js"></script>
+
+
+		<script src="js/custom.js"></script>
+
+
+		<script src="js/theme.init.js"></script>
+
+
+		<script src="js/examples/examples.portfolio.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</>  
 
   )
 }
